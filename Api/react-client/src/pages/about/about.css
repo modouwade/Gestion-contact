@@ -1,0 +1,47 @@
+
+.List{
+    width: 1024px;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .ListItem{
+    width: 500px;
+    height: 50vh;
+    margin-left: 300px ;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid lightblue;
+  }
+  
+  .ListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .ListTitles>h1{
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    margin: 10px;
+  }
+  
+  .ListTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px;
+  }
+
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.sListbuton{
+    margin-left: 10px;
+}

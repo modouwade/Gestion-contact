@@ -1,0 +1,75 @@
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .pListItem{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #0071c2;
+  }
+  
+  .pListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .pListTitles>h1{
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    margin: 10px;
+  }
+  
+  .pListTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px;
+  }
+
+.pButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.Listbuton{
+    margin-left: 10px;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerSearchItem.listMode{
+  display: none;
+}
+.headerSearchInput {
+  height: 50px;
+  background-color: white;
+  border: 3px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  top: 350px;
+  left: 140px;
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+
+}
+
+.headerSearchInput.listMode{
+    display: none;
+}
